@@ -1,0 +1,98 @@
+﻿/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.event-details, .flipbook, .team {
+    padding: 20px;
+}
+
+.event-details h2, .flipbook h2, .team h2 {
+    color: #007BFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.event-details p, .flipbook p {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+    text-align: center;
+}
+
+.button:hover {
+    background: #0056b3;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.team-member p {
+    font-size: 16px;
+}
+
+.footer {
+    text-align: center;
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    border-radius: 0 0 8px 8px;
+}
